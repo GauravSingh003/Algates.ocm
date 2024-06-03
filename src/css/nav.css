@@ -3,7 +3,7 @@
     position: relative;
     z-index: 10;
 }
-#nav ul Link{
+.nav-ul-Link{
     display: flex;
     color: rgb(74, 11, 232);
     transition:all 0.6s ;
@@ -31,16 +31,32 @@
 @media (max-width:600px) {
     .nav-link-mobile{
         position: absolute;
-        width: 50%;
+        width: 40%;
         height: 400px;
         padding: 30px 40px;
         left:0%;
         top: 40px;
         background: rgb(17, 57, 73);
         border-radius: 0 30px 150px 0;
-        display: flex;
+        display: inline-flex;
         flex-direction: column;
-        transition:all 1s ;
+        justify-content: space-around;
+        transition: all 0.6s;
+    }
+
+     ul>a{
+        margin: 10px 15px 25px 0;
+        &:hover{
+        transform: scale(1.15) translate(2px);
+        transition: all 0.6s;
+        cursor: pointer;
+        color: white;
+        font-weight: bold;
+        border-bottom: 2px solid white;
+        box-shadow: 2px 3px 5px white;
+    }
+}
+
 
     }
     .nav-li{
@@ -60,4 +76,3 @@
         display: none;
     }
    
-}
