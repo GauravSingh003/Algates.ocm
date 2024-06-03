@@ -20,8 +20,8 @@ const Footer = () => {
               Cholamandalam Securities Limited.
             </p>
             <p className="mt-8">
-              NSE Registration Number: AP090200603 BSE Registration Number:
-              AP01023701106698.
+              NSE Registration Number: xx1122336654XX BSE Registration Number:
+              ##000012348899YY.
             </p>
             <p className="mt-8">
               {" "}
