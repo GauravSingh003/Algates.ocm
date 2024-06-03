@@ -12,7 +12,7 @@ import { SiKnowledgebase } from "react-icons/si";
 
 
 const Nav = () => {
-  const[show,setShow] = useState(false)
+  const[show,setShow] = useState(true)
 
   return (
     <nav className="p-5 text-orange-500 bg-white flex justify-evenly items-center"
@@ -23,7 +23,7 @@ const Nav = () => {
         </header>
 
 
-        <ul className={show? "nav-link-mobile nav-li"  : "nav-link-mobile"}    >
+        <ul className={show? "nav-li nav-link-mobile" : "nav-link-mobile"}    >
 
             <Link className='gap-2 flex items-center' to="#home" smooth><FaHome/> Home </Link>
             <Link className='gap-2 flex items-center' to="#products" smooth><MdProductionQuantityLimits/> products </Link>
