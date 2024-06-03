@@ -1,0 +1,20 @@
+#about{
+    min-height: 90vh;
+    width: 98.9vw;
+}
+
+@media (max-width:600px) {
+    #about{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    #about-btn{
+        margin: 10px 0;
+    }
+    #right>#abt-lottie{
+        width: 400px;
+    }
+
+}

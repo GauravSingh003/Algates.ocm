@@ -1,0 +1,38 @@
+#faq{
+    min-height: 80vh;
+    padding-bottom: 40px;
+    
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#left>p{
+    background: gray;
+    color: white;
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+#faq>#right{
+    margin-left: 70%;
+}
+
+@media (max-width:600px) {
+    #main{
+        min-height: 140vh;
+        display: flex;
+        flex-direction: column;
+    }
+    #main>#left{
+        width: 100%;
+    }
+    #main>#right{
+        margin: 0 auto;
+    }
+
+}

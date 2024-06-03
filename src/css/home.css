@@ -1,0 +1,40 @@
+#home-main{
+    min-height: 68vh;
+    position: relative;
+    overflow-x: hidden;
+}
+
+#circle{
+    height: 250px;
+    width: 250px;
+    background: rgb(155, 211, 233);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 0;
+    left:92%;
+    bottom: 53%;
+    box-shadow: -280px 360px rgb(155, 211, 233);
+}
+@media (max-width:600px) {
+    #home-main{
+        min-height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #home-left{
+        width: 100%;
+    
+    }
+    #home-left>p{
+        margin: 0 25%;
+        text-align: center;
+    }
+    #home-btn{
+        margin: 100px 30% 20px;
+    }
+    #circle{
+        margin: 0 0 40px 0;
+        bottom: 20%;
+    }
+}

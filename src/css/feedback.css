@@ -1,0 +1,18 @@
+#feedbox{
+    min-height: 250px;
+    width: 500px;
+    padding:20px 40px;
+}
+
+@media (max-width:600px) {
+    #feedback-main{
+        display: flex;
+        flex-direction: column;
+    }
+    #feedbox{
+        width: 100%;
+    }
+    #feeback-data{
+        margin-top: 20px;
+    }
+}
